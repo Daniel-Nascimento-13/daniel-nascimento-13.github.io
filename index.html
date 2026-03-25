@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Design by Daniel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======================================================
+    SNAP CONTAINER
+    ÚNICO ELEMENTO QUE ROLA. CADA SECTION TEM HEIGHT:100%
+    E SCROLL-SNAP-STOP:ALWAYS — UM SWIPE = UMA SEÇÃO.
+   ====================================================== -->
+  <div id="snap-container">
+
+
+    <!-- ======================================================
+      SEÇÃO 1 — INTRO
+     ====================================================== -->
+    <section id="intro">
+      <p class="intro-text">
+        <span id="typewriter-output"></span><span class="type-cursor">|</span>
+      </p>
+    </section>
+
+
+    <!-- ======================================================
+      SEÇÃO 2 — HERO
+     ====================================================== -->
+    <section id="hero">
+
+      <div class="hero-tag">
+        <br>Designer &amp; Developer
+      </div>
+
+      <img class="hero-photo" src="./FOTOS/eu.png" alt="Daniel">
+
+      <div class="hero-name-wrap">
+        <div class="hero-name">
+          DANIEL &nbsp;&nbsp; DANIEL &nbsp;&nbsp; DANIEL &nbsp;&nbsp; DANIEL &nbsp;&nbsp;
+          DANIEL &nbsp;&nbsp; DANIEL &nbsp;&nbsp; DANIEL &nbsp;&nbsp; DANIEL &nbsp;&nbsp;
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        Scroll down
+        <div class="scroll-line"></div>
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+      SEÇÃO 3 — ABOUT
+     ====================================================== -->
+    <section id="about">
+
+      <div class="about-label"><span>/</span>ABOUT</div>
+
+      <div class="about-content">
+        <p class="about-bio">
+          <strong>Designer &amp; Desenvolvedor</strong> focado na criação de
+          <u>landing pages</u> de alta conversão.
+          Combino <strong>design estratégico</strong> com código limpo para transformar
+          ideias em <strong>páginas que realmente vendem.</strong>
+          Com atenção aos detalhes e foco em resultado, cada projeto é pensado para gerar
+          <strong>impacto, clareza e conversão.</strong>
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">ESTRATÉGICO</span>
+            <span class="stat-label">Landing Pages Estratégicas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">FUNCIONAL</span>
+            <span class="stat-label">Foco em Conversão</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">PRECISO</span>
+            <span class="stat-label">Design + Código</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+      SEÇÃO 4 — WORKS
+     ====================================================== -->
+    <section id="works">
+
+      <div class="marquee-bar">
+        <div class="marquee-track" id="marquee">
+          <span class="marquee-item">DESIGN BY DANIEL</span>
+          <span class="marquee-sep">&#10022;</span>
+          <span class="marquee-item">LANDING PAGES DE ALTA CONVERSÃO</span>
+          <span class="marquee-sep">&#10022;</span>
+          <span class="marquee-item">DESIGN &amp; DESENVOLVIMENTO</span>
+          <span class="marquee-sep">&#10022;</span>
+          <span class="marquee-item">DESIGN BY DANIEL</span>
+          <span class="marquee-sep">&#10022;</span>
+          <span class="marquee-item">LANDING PAGES DE ALTA CONVERSÃO</span>
+          <span class="marquee-sep">&#10022;</span>
+          <span class="marquee-item">DESIGN &amp; DESENVOLVIMENTO</span>
+          <span class="marquee-sep">&#10022;</span>
+        </div>
+      </div>
+
+      <div class="works-body">
+
+        <div class="works-left">
+          <p class="works-pitch">
+            Transformo a presença digital de negócios e profissionais em
+            <strong>máquinas de resultados.</strong>
+            Enquanto páginas comuns apenas informam, eu desenvolvo
+            <strong>landing pages</strong> imersivas e com autoridade que funcionam
+            como seu melhor representante: uma <strong>vitrine estratégica</strong>
+            que não dorme, não <strong>perde oportunidades</strong> e converte onde
+            outros apenas passam o tempo.
+          </p>
+          <div class="cta-circle" id="cta-btn">QUERO<br>SABER MAIS</div>
+        </div>
+
+        <div class="works-list">
+          <p class="works-section-label">Modelos</p>
+
+          <div class="work-item">
+            <div class="work-item-top">
+              <span class="work-title">Empresas</span>
+              <div class="work-item-right">
+                <button class="preview-btn" aria-label="Ver preview">VER</button>
+                <span class="work-type">Design &amp; Desenvolvimento</span>
+              </div>
+            </div>
+            <div class="work-preview">
+              <img src="./FOTOS/empresas.png" alt="Preview Empresas">
+            </div>
+          </div>
+
+          <div class="work-item">
+            <div class="work-item-top">
+              <span class="work-title">Branding pessoal</span>
+              <div class="work-item-right">
+                <button class="preview-btn" aria-label="Ver preview">VER</button>
+                <span class="work-type">Web &amp; Estratégia</span>
+              </div>
+            </div>
+            <div class="work-preview">
+              <img src="./FOTOS/branding-pessoal.png" alt="Preview Branding">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+      SEÇÃO 5 — PROCESS
+      TÍTULO, TEXTO E IMAGEM DE CADA ETAPA FICAM NO <TEMPLATE>.
+      O JS LÊ E MONTA O LAYOUT AUTOMATICAMENTE.
+     ====================================================== -->
+    <section id="process">
+
+      <div class="process-left">
+        <div class="process-words" id="process-words"></div>
+        <p class="process-desc" id="process-desc"></p>
+      </div>
+
+      <div class="process-right" id="process-right"></div>
+
+      <!-- ETAPA 1 -->
+      <template class="process-step" data-index="0">
+        <span slot="titulo">ALINHAMENTO</span>
+        <span slot="texto">Trabalho em conjunto ao Cliente para definir escopo, objetivos e requisitos do projeto. Pesquisa aprofundada para gerar clareza e uma base sólida para o que vem a seguir.</span>
+        <img slot="imagem" src="./FOTOS/alinhamento.png" alt="Alinhamento">
+      </template>
+
+      <!-- ETAPA 2 -->
+      <template class="process-step" data-index="1">
+        <span slot="titulo">DESIGN</span>
+        <span slot="texto">Com a base estabelecida, crio interfaces únicas, funcionais e visualmente impactantes — combinando estética e lógica para construir experiências que convertem.</span>
+        <img slot="imagem" src="./FOTOS/design.png" alt="Design">
+      </template>
+
+    </section>
+
+
+    <!-- ======================================================
+      SEÇÃO 6 — CONTACT
+     ====================================================== -->
+    <section id="contact">
+
+      <p class="contact-label">Vamos conversar</p>
+
+      <h2 class="contact-heading">
+        TRANSFORME SUA
+        <em>PRESENÇA</em>
+      </h2>
+
+      <div class="social-row">
+        <a class="social-link" id="whatsapp-link" href="https://wa.me/5551998922465" target="_blank">WhatsApp</a>
+        <a class="social-link" href="https://www.instagram.com/daniel_nascimennto/" target="_blank">Instagram</a>
+        <a class="social-link" href="https://www.linkedin.com/in/luis-daniel-nascimento-leite-46638a3a3/" target="_blank">LinkedIn</a>
+      </div>
+
+      <a class="contact-email" id="contact-email-link"></a>
+
+      <div class="footer-bar">
+        <span>&#169; 2026 Daniel</span>
+        <span>Design &amp; Dev</span>
+      </div>
+
+    </section>
+
+
+  </div><!-- /SNAP-CONTAINER -->
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      /* ======================================================
+         SEÇÃO 1 — INTRO TYPEWRITER
+         ====================================================== */
+
+      const typeOutput = document.getElementById('typewriter-output');
+      const typeCursor = document.querySelector('.type-cursor');
+      const fullText   = 'Design by ';
+      const boldText   = 'Daniel';
+      let   typeTimer  = null;
+
+      function playIntro() {
+        clearTimeout(typeTimer);
+        typeOutput.innerHTML = '';
+        typeCursor.style.opacity = '1';
+
+        let i = 0;
+        const chars = [...fullText];
+
+        function typeNext() {
+          if (i < chars.length) {
+            typeOutput.textContent += chars[i++];
+            typeTimer = setTimeout(typeNext, 80);
+          } else {
+            const bold = document.createElement('span');
+            typeOutput.appendChild(bold);
+            let j = 0;
+            function typeBold() {
+              if (j < boldText.length) {
+                bold.textContent += boldText[j++];
+                typeTimer = setTimeout(typeBold, 80);
+              } else {
+                typeTimer = setTimeout(() => { typeCursor.style.opacity = '0'; }, 1500);
+              }
+            }
+            typeBold();
+          }
+        }
+
+        typeNext();
+      }
+
+      playIntro();
+
+      /* REINICIA AO VOLTAR PARA A SEÇÃO INTRO */
+      new IntersectionObserver(
+        (entries) => { entries.forEach(e => { if (e.isIntersecting) playIntro(); }); },
+        { root: document.getElementById('snap-container'), threshold: 0.5 }
+      ).observe(document.getElementById('intro'));
+
+
+      /* ======================================================
+         SEÇÃO 4 — WORKS
+         ====================================================== */
+
+      /* CTA ROLA ATÉ O CONTATO */
+      document.getElementById('cta-btn').addEventListener('click', () => {
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      });
+
+      /* DUPLICA MARQUEE PARA LOOP CONTÍNUO */
+      const track = document.getElementById('marquee');
+      track.innerHTML += track.innerHTML;
+
+      /* PREVIEW MOBILE — BOTÃO VER ABRE/FECHA O PREVIEW */
+      const isTouch = () => window.matchMedia('(hover: none)').matches;
+
+      document.querySelectorAll('.preview-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const item    = btn.closest('.work-item');
+          const wasOpen = item.classList.contains('open');
+          document.querySelectorAll('.work-item').forEach(i => i.classList.remove('open'));
+          if (!wasOpen) item.classList.add('open');
+        });
+      });
+
+
+      /* ======================================================
+         SEÇÃO 5 — PROCESS
+         ====================================================== */
+
+      const steps = Array.from(document.querySelectorAll('template.process-step')).map(tpl => ({
+        titulo: tpl.content.querySelector('[slot="titulo"]').textContent.trim(),
+        texto:  tpl.content.querySelector('[slot="texto"]').textContent.trim(),
+        imagem: tpl.content.querySelector('[slot="imagem"]').getAttribute('src')
+      }));
+
+      const wordsEl = document.getElementById('process-words');
+      const descEl  = document.getElementById('process-desc');
+      const rightEl = document.getElementById('process-right');
+
+      steps.forEach((step, i) => {
+        const word = document.createElement('div');
+        word.className = 'process-word ' + (i === 0 ? 'active' : 'faded');
+        word.textContent = step.titulo;
+        wordsEl.appendChild(word);
+
+        const img = document.createElement('img');
+        img.className = 'process-img' + (i === 0 ? ' active' : '');
+        img.src = step.imagem;
+        img.alt = step.titulo;
+        rightEl.appendChild(img);
+      });
+
+      descEl.textContent = steps[0].texto;
+
+      const wordEls = wordsEl.querySelectorAll('.process-word');
+      const imgEls  = rightEl.querySelectorAll('.process-img');
+
+      wordEls.forEach((word, i) => {
+        word.addEventListener('click', () => {
+          wordEls.forEach((w, j) => {
+            w.className = 'process-word ' + (j === i ? 'active' : 'faded');
+          });
+          imgEls.forEach((img, j) => {
+            img.className = 'process-img' + (j === i ? ' active' : '');
+          });
+          descEl.style.opacity = '0';
+          setTimeout(() => {
+            descEl.textContent   = steps[i].texto;
+            descEl.style.opacity = '1';
+          }, 200);
+        });
+      });
+
+
+      /* ======================================================
+         SEÇÃO 6 — CONTACT
+         ====================================================== */
+
+      /* EMAIL MONTADO VIA JS PARA EVITAR SCRAPERS */
+      const em = 'danielnascimento779@hotmail.com';
+      const el = document.getElementById('contact-email-link');
+      el.href        = 'mailto:' + em;
+      el.textContent = em;
+
+      /* UNDERLINE ANIMADO NO TOQUE (MOBILE) */
+      document.querySelectorAll('.social-link').forEach(link => {
+        link.addEventListener('touchstart', () => {
+          link.classList.add('touched');
+          setTimeout(() => link.classList.remove('touched'), 600);
+        }, { passive: true });
+      });
+
+      /* WHATSAPP COM MENSAGEM PRÉ-PREENCHIDA */
+      const whatsappMsg =
+        'Olá Dani, tudo bem?\n\nQuero melhorar minha presença online com uma landing page estratégica.\n\nVocê pode me ajudar?';
+
+      document.getElementById('whatsapp-link').href =
+        'https://wa.me/5551998922465?text=' + encodeURIComponent(whatsappMsg);
+
+    });
+  </script>
+
+</body>
+</html>

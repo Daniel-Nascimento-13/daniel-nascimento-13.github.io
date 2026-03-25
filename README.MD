@@ -17,7 +17,7 @@ Enquanto páginas comuns apenas informam, eu crio páginas que *representam, con
 
 - **Especialidade**
   
-👉 https://daniel-nascimento-13.github.io/by-dani/
+👉 https://daniel-nascimento-13.github.io/
 
 ---
 
